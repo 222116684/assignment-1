@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIT120</title>
+        <link rel="stylesheet" href="Prac1.css">
+        <style>
+            #picture {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                max-height: 500px;
+                max-width: 500px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+        <div class="column">
+            <img id="picture" src="solitare.PNG" alt="This is a screenshot from solitare">
+            <ul type="square" style="color:#DE1F85; background: #1F85DE;">
+                <li><b>First bullet</b></li>
+                <li><b>Second bullet</b></li>
+                <li><b>Third bullet</b></li>
+            </ul>
+        </div>
+        <div class="column">
+            <table class="numbertable">
+                <thead>
+                    <tr>
+                        <td><b>One</b></td>
+                        <td><b>Two</b></td>
+                        <td><b>Three</b></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Four</td>
+                        <td>Five</td>
+                        <td>Six</td>
+                    </tr>
+                    <tr>
+                        <td>Seven</td>
+                        <td>Eight</td>
+                        <td>Nine</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a id="mail" href="mailto:s222116684@deakin.edu.au">Email Link</a>
+            <p id="scores"><b>Student Scores</b></p>
+            <p id="display"></p>
+            <p id="total"><b>Total & Average:</b></p>
+            <p id="Total score and average"></p>
+            <script>
+                var outputText, fLength, i;
+
+                var scores = [80, 75, 40, 95, 60];
+
+                fLength = scores.length;
+
+                outputText = "<ol>";
+
+                for (i = 0; i < fLength; i++) 
+                {
+                    outputText += "<li>" + scores[i] + "</li>";
+                }
+
+                outputText += "</ol>";
+                
+                document.getElementById("display").innerHTML = outputText;
+                
+                var outputText2, lLength, x;
+                
+                let total = 80 + 75 + 40 + 95 + 60;
+                let average = total / 5
+                
+                outputText2 = "Total: " + total + " Average: " + average;
+                
+                document.getElementById("Total score and average").innerHTML = outputText2;
+                
+            </script>
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%
+}
+
+.numbertable {
+    border-style: groove;
+    padding: 3px;
+}
+
+#mail {
+    padding-left: 500px;
+}
+
+#scores {
+    text-align: center;
+}
+#total {
+    border-bottom-style: groove;
+}
