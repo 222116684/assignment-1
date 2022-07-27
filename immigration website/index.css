@@ -60,8 +60,21 @@
     
     }
 
+    footer {
+        text-align: left;
+        background-color: grey;
+        display: block;
+    }
+
     body {
         background-color: white;
+    }
+
+    
+
+    #email {
+        color: black;
+        text-decoration: none;
     }
 }
 
