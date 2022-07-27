@@ -129,3 +129,57 @@
 @media only screen and (max-width: 640px){
     
 }
+    #title {
+        display: none;
+    }
+
+    #sub {
+        display: none;
+    }
+
+    img#logoblue {
+        max-width: 100%;
+        height: 100px;
+    }
+    header {
+        font-family: 'Lato', sans-serif;
+        background-color: rgb(133, 244, 255);
+        color: white;
+        display: block;
+        width: 99%;
+        padding: 5px 3px 3px 3px;
+        margin-right: 3px;
+        padding-right: 3px;
+    }
+    header nav ul a{
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        padding-top: 10px;
+        width: 80%;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        /*display: block; */
+        align-items: flex-end;
+    }
+    
+    #about{
+        margin: 5px;
+    }
+
+    #services{
+        margin: 5px;
+    }
+
+    #mail {
+        margin: 5px;
+    }
+
+    #form {
+        margin: 5px;
+    }
+
+    nav {
+        align-items: center;
+    }
+} 
