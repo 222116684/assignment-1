@@ -3,6 +3,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="index.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -20,16 +21,25 @@
             <img id="logoblue" src="logbluesmall.png">
             <h1 id="title">Future You.</h1>
             <h2 id="sub">Migration</h2>
-            <nav>
-                <ul>
-                    <a id="about" href="about.html">About the Team</a>
-                    <a id="services" href="services.html">Our Services</a>
-                    <a id="mail" href="mailto:placeholder@gmail.com">Email us</a>
-                    <a id="form">Fill out a form</a>
-                </ul>
-            </nav>
+            <div class="row">
+                <div id="hleft" class="div_column">
+                    <button id="search"><i class="fa-solid fa-magnifying-glass">S</i></button>
+                    <input id="sbar"></input>
+                </div>
+                <div class="div_column">
+                    <nav>
+                        <ul>
+                            <a id="about" href="about.html">About the Team</a>
+                            <a id="services" href="services.html">Our Services</a>
+                            <a id="mail" href="mailto:placeholder@gmail.com">Email us</a>
+                            <a id="form">Fill out a form</a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </header>
         <div id="left">
+            <p></p>
         </div>
         <div id="right">
         </div>

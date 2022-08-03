@@ -1,6 +1,6 @@
 @charset "htf-8";
 
-@media only screen and(min-width: 1008px){
+@media only screen and (min-width: 1008px){
     header {
         font-family: 'Lato', sans-serif;
         background-color: rgb(133, 244, 255);
@@ -10,6 +10,18 @@
         padding: 5px 3px 3px 3px;
         margin-right: 3px;
         padding-right: 3px;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .div_column {
+        flex: 50%;
+    }
+
+    #hleft {
+        margin-top: 2%;
     }
 
     img#logoblue {
@@ -34,9 +46,9 @@
         display: none;
     }
 
-    nav {
+    /* nav {
         clear: right;
-    }
+    } */
 
     nav ul{
         text-align: right;
@@ -52,12 +64,11 @@
         text-decoration: none;
         font-size: 17px;
         padding-top: 5px;
-        width: 80%;
+        width: 50%;
         font-family: 'Lato', sans-serif;
         font-weight: bold;
         display: block;
         align-items: flex-end;
-    
     }
 
     footer {
