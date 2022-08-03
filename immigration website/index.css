@@ -9,7 +9,6 @@
         width: 99%;
         padding: 5px 3px 3px 3px;
         margin-right: 3px;
-        padding-right: 3px;
     }
 
     .row {
@@ -22,6 +21,14 @@
 
     #hleft {
         margin-top: 2%;
+    }
+
+    #search {
+        font-size: 20px;
+    }
+
+    #sbar {
+        font-size: 20px;
     }
 
     img#logoblue {
@@ -73,8 +80,10 @@
 
     footer {
         text-align: left;
-        background-color: grey;
+        background-color: rgb(211,211,211);
         display: block;
+        padding-left: 1%;
+        padding-top: 1px;
     }
 
     body {
