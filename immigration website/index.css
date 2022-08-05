@@ -1,5 +1,6 @@
 @charset "htf-8";
 
+/* Media query for desktop devices */
 @media screen and (min-width: 1008px){
     header {
         font-family: 'Lato', sans-serif;
@@ -125,6 +126,7 @@
     }
 }
 
+/* media query for tablet devices */
 @media only screen and (min-width: 641px){
     header {
         font-family: 'Lato', sans-serif;
@@ -252,6 +254,7 @@
     } 
 } 
 
+/* media query for mobile devices */
 @media screen and (max-width: 640px){
     
     #title {
